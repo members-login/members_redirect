@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="members_redirect" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+    <name>Members: Redirect</name>
+    <description>Redirects logged in user from pages "register", "password lost" to homepage and non logged in users to the login page</description>
+    <repo type="github">https://github.com/tiloschroeder/members_redirect</repo>
+    <url type="issues">https://github.com/tiloschroeder/members_redirect/issues</url>
+    <types>
+        <type>Other</type>
+    </types>
+    <authors>
+        <author>
+            <name github="tiloschroeder" symphony="tiloschroeder">Tilo Schröder</name>
+            <website>https://tiloschroeder.de</website>
+        </author>
+    </authors>
+    <releases>
+        <release version="1.0.0" date="2023-05-08" min="2.6.x"/>
+    </releases>
+</extension>
