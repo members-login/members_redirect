@@ -8,10 +8,10 @@ See it live [here](https://members-login.dev/dashboard/).
 
 If users are logged-in on the website, it may make sense to forward certain pages, such as "login", "registration" or "password lost".
 
-A data source is required for this, e.g. “Get member”. Under “Content” -> “Parameters” a user feature should be selected here (e.g. ID or username), which is then written to the ```params``` pool.  The logged-in user can now be defined in the file ```extension.driver.php```:
+The extension „Members“ simply adds two parameters (```member-id``` and ```member-section-id```) to Symphony’s ```param``` pool (on every page). The logged-in user is defined in the file ```extension.driver.php```:
 
 ```
-$loggedinMember = $context['params']['ds-get-member.id'] ?? null;
+$loggedinMember = $context['params']['member-id'] ?? null;
 ```
 
 You can then define the pages for which logged-in users are to be redirected:

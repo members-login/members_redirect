@@ -34,7 +34,7 @@ class extension_members_redirect extends Extension
     public function frontendParamsPostResolve( $context )
     {
 
-        $loggedinMember = $context['params']['ds-get-member.id'] ?? null;
+        $loggedinMember = $context['params']['member-id'] ?? null;
         $currentPage = $context['params']['current-page'];
         $rootPage = $context['params']['root-page'];
         $homepage = $context['params']['root'];

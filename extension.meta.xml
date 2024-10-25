@@ -14,6 +14,12 @@
         </author>
     </authors>
     <releases>
-        <release version="1.0.0" date="2023-05-08" min="2.6.x"/>
+        <release version="1.0.1" date="2024-10-25" min="2.6.x">
+            * set member-id in extension.driver.php
+            * update readme
+        </release>
+        <release version="1.0.0" date="2023-05-08" min="2.6.x">
+            * Initial release
+        </release>
     </releases>
 </extension>
