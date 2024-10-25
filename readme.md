@@ -36,7 +36,7 @@ This allows the user to be forwarded directly to the desired secure page after s
 
 ``` xml
 <xsl:if test="normalize-space(/data/params/url-redirect-to)">
-    <input type="hidden" name="redirect value="{/data/params/url-redirect-to}" />
+    <input type="hidden" name="redirect" value="{/data/params/url-redirect-to}" />
 </xsl:if>
 ```
 
