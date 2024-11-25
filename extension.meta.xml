@@ -2,18 +2,28 @@
 <extension id="members_redirect" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
     <name>Members: Redirect</name>
     <description>Redirects logged in user from pages "register", "password lost" to homepage and non logged in users to the login page</description>
-    <repo type="github">https://github.com/tiloschroeder/members_redirect</repo>
-    <url type="issues">https://github.com/tiloschroeder/members_redirect/issues</url>
+    <repo type="github">https://github.com/members-login/members_redirect</repo>
+    <url type="issues">https://github.com/members-login/members_redirect/issues</url>
     <types>
         <type>Other</type>
     </types>
     <authors>
+        <author>
+            <name github="members-login">Members login</name>
+            <website>https://members-login.dev</website>
+        </author>
         <author>
             <name github="tiloschroeder" symphony="tiloschroeder">Tilo Schröder</name>
             <website>https://tiloschroeder.de</website>
         </author>
     </authors>
     <releases>
+        <release version="1.0.3" date="2024-11-25" min="2.6.x">
+            * Info updated after transfer of ownership
+        </release>
+        <release version="1.0.2" date="2024-10-25" min="2.6.x">
+            * corrected sample-code in readme
+        </release>
         <release version="1.0.1" date="2024-10-25" min="2.6.x">
             * set member-id in extension.driver.php
             * update readme
